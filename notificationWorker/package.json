@@ -1,0 +1,27 @@
+{
+  "name": "notificationworker",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "worker.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/worker.js"
+  },
+  "dependencies": {
+    "@types/amqplib": "^0.10.7",
+    "@types/express": "^5.0.1",
+    "@types/nodemailer": "^6.4.17",
+    "@types/ws": "^8.18.1",
+    "amqplib": "^0.10.7",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "nodemailer": "^6.10.1",
+    "tsc-node": "^0.0.3",
+    "typescript": "^5.8.3",
+    "websocket": "^1.0.35",
+    "ws": "^8.18.1"
+  }
+}
