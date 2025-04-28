@@ -1,6 +1,6 @@
 # 🌐 WebHost Services
 
-![System Design](https://i.ibb.co/cSqsfFSw/system-design.png)
+<a href="https://ibb.co/B5kYWZ5G"><img src="https://i.ibb.co/B5kYWZ5G/system-design.png" alt="system-design" border="0" /></a>
 
 Welcome to **WebHost Services** — a modern, scalable web platform built using the latest technologies.
 
