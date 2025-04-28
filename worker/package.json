@@ -1,0 +1,26 @@
+{
+  "name": "worker",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "./dist/worker.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/worker.js"
+  },
+  "dependencies": {
+    "@google/genai": "^0.8.0",
+    "@google/generative-ai": "^0.24.0",
+    "@types/express": "^5.0.1",
+    "@types/ioredis": "^4.28.10",
+    "@types/ws": "^8.18.1",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "ioredis": "^5.6.1",
+    "tsc-node": "^0.0.3",
+    "typescript": "^5.8.3",
+    "ws": "^8.18.1"
+  }
+}
